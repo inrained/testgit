@@ -361,22 +361,28 @@ a:visited{
 	top:94px;
 	text-align: center;
 }
-#photoone{
-	position: absolute;
-	top:180px;
-	left:314px;
-}
+
+
 #phototwo{
+	background-image: url(images/phototwo.png);
+	width: 470px;
+	height: 340px;
 	position: absolute;
 	top:180px;
 	left:810px;
 }
 #photothree{
+	background-image: url(images/photothree.png);
+	width: 470px;
+	height: 340px;
 	position: absolute;
 	top:550;
 	left:314px;
 }
 #photofour{
+	background-image: url(images/photofour.png);
+	width: 470px;
+	height: 340px;
 	position: absolute;
 	top:550;
 	left:810px;
@@ -563,3 +569,61 @@ a:visited{
 	top:140px;
 	left:200px;
 }
+
+#photoone{
+	
+	width: 470px;
+	height: 340px;
+	position: absolute;
+	top:180px;
+	left:314px;
+	 background-image: url(images/first.png);
+	
+}/*
+.mask{
+	width: 470px;
+	height: 340px;
+	display:none;
+	background-color: gray;
+}
+
+#photoone:hover.mask{
+	display: block;
+	width: 470px;
+	height: 340px;
+	background-color: gray;
+	opacity:0.5;
+	font-size: 16px;
+}*/
+
+.square{ 
+  width: 470px;
+  height: 340px;
+  position:relative;
+ 
+ }
+.square .mask{ 
+  width: 470px;
+  height: 340px;
+  background-color: rgb(102,102,102);  
+  
+  position:absolute; 
+  display:none;
+ }
+.square:hover .mask{
+  width: 470px;
+  height: 340px;
+  background-color: rgb(102,102,102); 
+  opacity: 0.8;
+
+  position:absolute; 
+  display:block;
+  text-align: center;
+
+
+ }
+
+
+
+
+
