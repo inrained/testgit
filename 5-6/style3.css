@@ -49,4 +49,19 @@
 	
 	
 }
+body
+{
 
+	width: 800px;
+	margin: 0 auto;
+}
+#more{
+	position: absolute;;
+	top:200px;
+	right:400px;
+}
+#mes{
+	position: absolute;;
+	top:400px;
+	right:280px;
+}

@@ -4,6 +4,30 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>简历</title>
 	<link href="style3.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+		
+		window.onload=function(){
+			var more=document.getElementById('more');
+			var square=document.getElementsByClassName('square2')[0];
+			more.onclick=function(){
+				if(more.innerHTML==="隐藏"){
+					square.style.display="none";
+					more.innerHTML="显示";
+				}
+				else{
+					square.style.display="block";
+					more.innerHTML="隐藏";
+
+				}
+			}
+
+			var mes=document.getElementById("mes");
+			mes.onclick=function(){
+				console.log("信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息信息");
+				alert("已显示在控制台中");
+			}
+		}
+	</script>
 
 </head>
 
@@ -12,19 +36,24 @@
 <div id="sum">
 	<div id="square">
 	<p class="t1">简历</p>
+	<button id="more">隐藏</button>
+
 	</div>
 
 	<div class="square1">
 	<p class="t2">基本信息</p>
-	</div>
 
+	</div>
+		
 		<div class="square2">
+
 		<labal class="t3">姓名&nbsp</labal>
 			<labal class="t4">张三&nbsp&nbsp</labal>
 		<labal class="t3">性别&nbsp</labal>
 			<labal class="t4">男&nbsp&nbsp</labal>
 		<labal class="t3">应聘职位&nbsp</labal>
 			<labal class="t4">Web前端工程师</labal>
+
 		</div>
 	
 	<div class="square1">	
@@ -38,8 +67,11 @@
 		<labal class="t3">Email&nbsp</labal>
 			<labal class="t4"><a href="#">joinefe@baidu.com</a>&nbsp&nbsp</labal>
 		<labal class="t3">个人主页&nbsp</labal>
-			<labal class="t4"><a href="#">Github</a></labal>	
-		</div>
+			<labal class="t4"><a href="#">Github</a></labal>
+			
+			<button id="mes">在控制台查看更多信息吧</button>	
+	</div>
+
 
 
 
@@ -78,6 +110,7 @@
 
 		</div>
 </div>
+
 </body>
 
 </html>
