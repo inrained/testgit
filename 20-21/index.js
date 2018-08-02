@@ -81,11 +81,25 @@ window.onload=function(){
 //8160px
 	var smile=document.querySelector("#smile");
 	var tim=0;
+	var flag=0;
 	var ss = setInterval(function(){
-
-		smile.style.backgroundPosition="0px "+tim*(-480)+"px";
-		tim++;
-		if(tim==17)tim=0;
+		if(flag==0){
+			smile.style.backgroundPosition="0px "+tim*(-480)+"px";
+			tim++;
+			if(tim==16){
+				flag=1;
+				
+			}
+		}
+		else{
+			smile.style.backgroundPosition="0px "+tim*(-480)+"px";
+			tim--;
+			if(tim==0){
+				flag=0;
+				
+			}
+		}
+		
 		
 		}, 100);
 				
