@@ -1,0 +1,153 @@
+#headpage
+{
+	background-color:gray;
+	height:80px;
+	width:100%;
+
+}
+#headpagecontain
+{
+	
+	height:50px;
+	width:960px;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	margin:auto auto;
+
+
+}
+#logo
+{
+	color:white;
+	font-size:20px;
+	float:left;
+
+}
+#alink
+{
+	float:right;
+	font-size:12px;
+}
+a:link{color:white;}
+
+
+
+#banner
+{
+	background-color:#32CD32;
+	height:200px;
+	width:100%;
+	position:relative;
+}
+#bannercontain 
+{
+	width:200px;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items:baseline;
+	position:absolute;right:200px;bottom:10px;
+	
+}
+.dnumber1
+{
+	width:20px;
+	height:30px;
+	background-color:#BCEE68;
+	margin-left:20px;
+	text-align:center;
+	border:solid 1px black;
+	
+}
+#dnumber2
+{	
+	width:20px;
+	height:50px;
+	text-align:center;
+	background-color:#F0F8FF;
+	line-height:50px;
+	margin-left:20px;
+	border:solid 1px black;
+}
+
+
+
+
+#menu
+{
+	height:80px;
+	border-bottom:solid 1px #C1C1C1;
+	position:relative;
+	
+}
+#menucontain 
+{
+	width:960px;
+	display: flex;
+	justify-content: flex-start;
+	align-items:baseline;
+	position:absolute;left:150px;bottom:0px;
+	
+	
+}
+#menu1
+{
+	text-align:center;
+	width:80px;
+	height:30px;
+	border:solid 1px gray;
+	border-bottom:solid 3px #FFFFFF;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	
+}
+.menu2
+{
+	text-align:center;
+	width:80px;
+	height:30px;
+	border:solid 1px gray;
+	
+	background-color:#EEEED1;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	
+}
+
+
+#main
+{
+	
+	height:600px;
+	
+	
+}
+#maincontain
+{
+	
+	width:960px;
+	margin:10px auto;	
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap
+}
+.conten
+{
+		border:solid 1px black;
+		padding:80px;
+		margin-bottom:20px;		
+		
+}
+
+#footen
+{
+	background-color:gray;
+	color:white;
+	text-align:center;
+	height:100px;
+}
+
+
+
+

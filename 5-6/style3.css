@@ -1,0 +1,67 @@
+
+.t1
+{
+	font-size:40px;
+	font-weight:600;
+}
+.t2
+{
+	font-size:20px;
+	font-weight:400;
+}
+.t3
+{
+	font-size:18px;
+	font-weight:300;
+
+}
+.t4
+{
+	font-size:15px;
+	font-weight:100;
+}
+#square
+{
+	background-color:gray;
+	height:100px;
+	width:600px;
+	
+}
+
+.square1
+{
+	
+	background-color:#CDCDB4;
+	width:100px;
+	height:150px;
+	border-bottom:solid 2px white;
+	clear:both;
+	float:left;
+
+	
+}
+.square2
+{
+	background-color:white;
+	width:500px;
+	float:left;
+	height:150px;
+	
+	
+}
+body
+{
+
+	width: 800px;
+	margin: 0 auto;
+}
+#more{
+	position: absolute;;
+	top:200px;
+	right:400px;
+}
+#mes{
+	position: absolute;;
+	top:400px;
+	right:280px;
+}
